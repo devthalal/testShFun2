@@ -1,0 +1,14 @@
+{
+  "name": "testShFun2",
+  "blockId": "dMHHA-gaJSUhY-HzMczeE",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/devthalal/testShFun2",
+    "ssh": "git@github.com:devthalal/testShFun2.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
